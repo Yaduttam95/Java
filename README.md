@@ -66,6 +66,7 @@ Unlike C++, Java does not support operator overloading or multiple inheritance f
 
 Java uses comments similar to those of C++. There are three different styles of comments: a single line style marked with two slashes (//), a multiple line style opened with /* and closed with */.
 ### Hello World Example
+#### Code
 ```java
 public class HelloWorld{
     public static void main(String[] args) {
@@ -87,3 +88,7 @@ The Java launcher launches Java by loading a given class (specified on the comma
 Printing is part of a Java standard library: The System class defines a public static field called out. The out object is an instance of the PrintStream class and provides many methods for printing data to standard out, including println(String) which also appends a new line to the passed string.
 
 The string "Hello World!" is automatically converted to a String object by the compiler.
+#### Output
+```
+Hello World!
+```
