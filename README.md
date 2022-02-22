@@ -78,3 +78,8 @@ public class HelloWorld{
 ```
 Hello World!
 ```
+
+## Difference between JDK, JRE and JVM
+| JDK | JRE | JVM|
+|---|---|---|
+| Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), and other tools needed in Java development. | JRE stands for “Java Runtime Environment” and may also be written as “Java RTE.” The Java Runtime Environment provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files. | JVM stands for JAVA Virtual Machine. A specification where the working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Sun and other companies. |
