@@ -86,3 +86,20 @@ public class HelloWorld{
 ```
 Hello World!
 ```
+## Identifiers
+In programming languages, identifiers are used for identification purposes. In Java, an identifier can be a class name, method name, variable name, or label.
+```java
+public class Test
+{
+    public static void main(String[] args)
+    {
+        int a = 20;
+    }
+}
+```
+In the above code, we have 5 identifiers namely :
+1. Test : class name.
+2. main : method name.
+3. String : predefined class name.
+4. args : variable name.
+5. a :  variable name.
