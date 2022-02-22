@@ -103,3 +103,8 @@ In the above code, we have 5 identifiers namely :
 3. String : predefined class name.
 4. args : variable name.
 5. a :  variable name.
+
+## Variables
+Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location name of the data.
+It can be clearly understood by this image:
+<img alt="Difference between JDK, JRE and JVM" src="https://media.geeksforgeeks.org/wp-content/uploads/20191110223008/java-declare.jpeg" >
