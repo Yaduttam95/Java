@@ -1,6 +1,5 @@
 <p align="center">
     <a href="https://github.com/Yaduttam95/Java">
-        <!--<img alt="Java" src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" >-->
         <img alt="Java" src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/ST-java1_1x%20%283%29.png?itok=Tkr1xEri" >
     </a>
 </p>
