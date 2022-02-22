@@ -47,7 +47,7 @@ Java was originally developed by James Gosling at Sun Microsystems and released 
 | Java SE 12 | March 19, 2019 |
 | Java SE 13 | September 17, 2019 |
 | Java SE 14 | March 17, 2020 |
-| Java SE 15 | September 15, 2020[42] |
+| Java SE 15 | September 15, 2020 |
 | Java SE 16 | March 16, 2021 |
 | Java SE 17 (LTS) | September 14, 2021 |
 | Java SE 18 | March 2022 |
