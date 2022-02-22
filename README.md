@@ -108,3 +108,16 @@ In the above code, we have 5 identifiers namely :
 Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location name of the data.
 It can be clearly understood by this image:
 <img alt="Difference between JDK, JRE and JVM" src="https://media.geeksforgeeks.org/wp-content/uploads/20191110223008/java-declare.jpeg" >
+Some variable declaration
+```java
+float simpleInterest; 
+// Declaring float variable
+```
+```java
+int time = 10, speed = 20; 
+// Declaring and Initializing integer variable
+```
+```java
+char var = 'h'; 
+// Declaring and Initializing character variable
+```
