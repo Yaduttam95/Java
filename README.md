@@ -69,7 +69,7 @@ Java uses comments similar to those of C++. There are three different styles of 
 ```java
 public class HelloWorld{
     public static void main(String[] args) {
-        System.out.println("Hello World!"); // Prints the string to the console.
+        System.out.println("Hello World!");
     }
 }
 ```
