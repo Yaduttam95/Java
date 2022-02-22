@@ -65,3 +65,11 @@ The syntax of Java is largely influenced by C++ and C. Unlike C++, which combine
 Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
 
 Java uses comments similar to those of C++. There are three different styles of comments: a single line style marked with two slashes (//), a multiple line style opened with /* and closed with */.
+### Hello World Example
+```java
+public class HelloWorld{
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Prints the string to the console.
+    }
+}
+```
