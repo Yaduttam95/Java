@@ -49,9 +49,22 @@ Java was originally developed by James Gosling at Sun Microsystems and released 
 | Java SE 17 (LTS) | September 14, 2021 |
 | Java SE 18 | March 2022 |
 
-## Difference between JAVA, C and C++
-
-
+<!-- ## Difference between JAVA, C and C++
+| Basis | C | C++ | Java |
+| --- | --- |
+| Origin | The C language is based on BCPL. | The C++ language is based on the C language. | The Java programming language is based on both C and C++. |
+| Programming Pattern | It is a procedural language. | It is an object-oriented programming language. | It is a pure object-oriented programming language. |
+| Approach | It uses the top-down approach. | It uses the bottom-up approach. | It also uses the bottom-up approach. |
+| Dynamic or Static | It is a static programming language. | It is also a static programming language. | It is a dynamic programming language. |
+| Code Execution | The code is executed directly. | The code is executed directly. | The code is executed by the JVM. |
+| Platform Dependency | It is platform dependent. | It is platform dependent. | It is platform-independent because of byte code. |
+| Keyword | There are 32 keywords in the C language. | There are 60 keywords in the C++ language. | There are 52 keywords in the Java language. |
+| Pointer | It supports pointer. | It supports pointer. | It does not support the pointer concept because of security. |
+| Constructor/ Destructor | It does not support constructor and destructor. | It supports both constructor and destructor. | It supports constructors only. |
+| Overloading | It does not support the overloading concept. | Method and operator overloading can be achieved. | Only method overloading can be achieved. |
+| Array Size | An array should be declared with size. | An array should be declared with size. | An array can be declared without declaring the size. |
+| Used for | It is widely used to develop drivers and operating systems. | It is widely used for system programming. | It is used to develop web applications, mobile applications, and windows applications. |
+ -->
 ## Compilation and Running
 Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
 One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support. This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End-users commonly use a Java Runtime Environment (JRE) installed on their device for standalone Java applications or a web browser for Java applets.
