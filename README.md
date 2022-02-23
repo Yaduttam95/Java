@@ -138,3 +138,24 @@ int time = 10, speed = 20;
 char var = 'h'; 
 // Declaring and Initializing character variable
 ```
+
+## Object and Classes
+### Object
+Objects are the things which are taken first in consideration while designing a program and they are also the units of code that are eventually derived from the process. An object is a real-world entity. An object is a runtime entity. The object is an entity which has state and behavior. The object is an instance of a class.
+
+### Classes
+A class is an extensible program-code-template for creating objects. It can also be understood as a class is a template or blueprint from which objects are created.
+It can consists of these things:-
+1. Fields
+2. Methods
+3. Constructors
+4. Blocks
+5. Nested class and interface
+
+#### Syntax to declare a class
+```java
+class <class_name>{  
+    field;  
+    method;  
+} 
+```
