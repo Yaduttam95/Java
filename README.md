@@ -49,6 +49,8 @@ Java was originally developed by James Gosling at Sun Microsystems and released 
 | Java SE 17 (LTS) | September 14, 2021 |
 | Java SE 18 | March 2022 |
 
+## Difference between JAVA, C and C++
+
 
 ## Compilation and Running
 Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
