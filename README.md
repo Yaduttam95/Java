@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/Yaduttam95/Java">
-        <img alt="Java" src="https://developers.redhat.com/sites/default/files/styles/article_feature/public/ST-java1_1x%20%283%29.png?itok=Tkr1xEri" >
+        <img alt="Java" src="/assets/java.png" >
     </a>
 </p>
 
@@ -80,7 +80,7 @@ The use of universal bytecode makes porting simple. However, the overhead of int
 | JDK (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program. JDK is a kit(or package) that includes two things Development Tools(to provide an environment to develop your java programs) and JRE (to execute your java program). | JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application)onto your machine. JRE is only used by those who only want to run Java programs that are end-users of your system. |  JVM (Java Virtual Machine) is a very important part of both JDK and JRE because it is contained or inbuilt in both. Whatever Java program you run using JRE or JDK goes into JVM and JVM is responsible for executing the java program line by line, hence it is also known as an interpreter. |
 
 It can be clearly understood by this image:
-<img alt="Difference between JDK, JRE and JVM" src="https://media.geeksforgeeks.org/wp-content/uploads/20210218150010/JDK.png" >
+<img alt="Difference between JDK, JRE and JVM" src="/assets/JDK.png" >
 
 ## Syntax
 The syntax of Java is largely influenced by C++ and C. Unlike C++, which combines the syntax for structured, generic, and object-oriented programming, Java was built almost exclusively as an object-oriented language. All code is written inside classes, and every data item is an object, with the exception of the primitive data types, (i.e. integers, floating-point numbers, boolean values, and characters), which are not objects for performance reasons. Java reuses some popular aspects of C++ (such as the printf method).
@@ -124,7 +124,7 @@ Variable in Java is a data container that saves the data values during Java prog
 
 It can be clearly understood by this image:
 
-<img alt="Difference between JDK, JRE and JVM" src="https://media.geeksforgeeks.org/wp-content/uploads/20191110223008/java-declare.jpeg" >
+<img alt="Difference between JDK, JRE and JVM" src="/assets/variable.jfif" >
 
 ### Some variable declarations
 ```java
