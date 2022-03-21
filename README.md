@@ -13,6 +13,7 @@ This repository consists of programs created by me using Java.
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Yaduttam95/Java)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/archive/master.zip)
 [![CodeFactor](https://www.codefactor.io/repository/github/yaduttam95/java/badge)](https://www.codefactor.io/repository/github/yaduttam95/java)
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Yaduttam95/Java)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FYaduttam95%2FJava&countColor=%23263759&style=flat)
 [![GitHub issues](https://img.shields.io/github/issues/Yaduttam95/Java.svg)](https://GitHub.com/Yaduttam95/Java/issues/)
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Yaduttam95/Java.svg)](https://GitHub.com/Yaduttam95/Java/issues?q=is%3Aissue+is%3Aclosed)
