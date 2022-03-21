@@ -8,9 +8,9 @@
 This repository consists of programs created by me using Java.
 </p>
 
-
+<!-- [![Sparkline](https://stars.medv.io/Yaduttam95/Java.svg)](https://stars.medv.io/Yaduttam95/Java) -->
 [![GitHub last commit](https://img.shields.io/github/last-commit/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/commits/master)
-[![GitHub commits](https://badgen.net/github/commits/Yaduttam95/Java)](https://GitHub.com/Yaduttam95/Java/commit/)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Yaduttam95/Java)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/archive/master.zip)
 [![CodeFactor](https://www.codefactor.io/repository/github/yaduttam95/java/badge)](https://www.codefactor.io/repository/github/yaduttam95/java)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FYaduttam95%2FJava&countColor=%23263759&style=flat)
@@ -26,6 +26,8 @@ This repository consists of programs created by me using Java.
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Yaduttam95/ama)
 ![Profile views](https://gpvc.arturio.dev/Yaduttam95)
 
+### CONTRIBUTORS
+![GitHub Contributors Image](https://contrib.rocks/image?repo=Yaduttam95/Java)
 # Java
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
 
