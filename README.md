@@ -13,10 +13,19 @@ This repository consists of programs created by me using Java.
 [![GitHub repo size](https://img.shields.io/github/repo-size/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/archive/master.zip)
 [![CodeFactor](https://www.codefactor.io/repository/github/yaduttam95/java/badge)](https://www.codefactor.io/repository/github/yaduttam95/java)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FYaduttam95%2FJava&countColor=%23263759&style=flat)
+[![GitHub issues](https://img.shields.io/github/issues/Yaduttam95/Java.svg)](https://GitHub.com/Yaduttam95/Java/issues/)
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Yaduttam95/Java.svg)](https://GitHub.com/Yaduttam95/Java/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub open-pull-requests](https://badgen.net/github/open-prs/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/pulls?q=is%3Aopen)
+[![GitHub pull-requests closed](https://badgen.net/github/closed-prs/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/pulls?q=is%3Aclosed)
+[![GitHub pull-requests merged](https://badgen.net/github/merged-prs/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/pulls?q=is%3Amerged)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Yaduttam95/Java/graphs/commit-activity)
+[![GitHub branches](https://badgen.net/github/branches/Yaduttam95/Java)](https://github.comYaduttam95/Java/)
 [![GitHub license](https://badgen.net/github/license/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/blob/master/LICENSE)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Yaduttam95/ama)
+![Profile views](https://gpvc.arturio.dev/Yaduttam95)
 
+<!-- [![GitHub commits](https://badgen.net/github/commits/Yaduttam95/Java)](https://GitHub.com/Yaduttam95/Java/commit/) -->
 # Java
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
 
