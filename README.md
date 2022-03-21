@@ -13,6 +13,9 @@ This repository consists of programs created by me using Java.
 [![GitHub repo size](https://img.shields.io/github/repo-size/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/archive/master.zip)
 [![CodeFactor](https://www.codefactor.io/repository/github/yaduttam95/java/badge)](https://www.codefactor.io/repository/github/yaduttam95/java)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FYaduttam95%2FJava&countColor=%23263759&style=flat)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Yaduttam95/Java/graphs/commit-activity)
+[![GitHub license](https://badgen.net/github/license/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/blob/master/LICENSE)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Yaduttam95/ama)
 
 # Java
 Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need to recompile.
