@@ -19,7 +19,7 @@ Java is a high-level, class-based, object-oriented programming language that is 
 
 ## Origin and History
 Java was originally developed by James Gosling at Sun Microsystems and released in May 1995 as a core component of Sun Microsystems' Java platform. The original and reference implementation Java compilers, virtual machines, and class libraries were originally released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle offers its own HotSpot Java Virtual Machine, however the official reference implementation is the OpenJDK JVM which is free open-source software and used by most developers and is the default JVM for almost all Linux distributions.
-### Goals in creation of Java Language
+<!-- ### Goals in creation of Java Language
 1.  It must be simple, object-oriented, and familiar.
 2.  It must be robust and secure.
 3.  It must be architecture-neutral and portable.
@@ -64,7 +64,7 @@ Java was originally developed by James Gosling at Sun Microsystems and released 
 | Constructor/ Destructor | It does not support constructor and destructor. | It supports both constructor and destructor. | It supports constructors only. |
 | Overloading | It does not support the overloading concept. | Method and operator overloading can be achieved. | Only method overloading can be achieved. |
 | Array Size | An array should be declared with size. | An array should be declared with size. | An array can be declared without declaring the size. |
-| Used for | It is widely used to develop drivers and operating systems. | It is widely used for system programming. | It is used to develop web applications, mobile applications, and windows applications. |
+| Used for | It is widely used to develop drivers and operating systems. | It is widely used for system programming. | It is used to develop web applications, mobile applications, and windows applications. | -->
 ## Compilation and Running
 Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture.
 One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support. This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End-users commonly use a Java Runtime Environment (JRE) installed on their device for standalone Java applications or a web browser for Java applets.
@@ -73,7 +73,7 @@ Standard libraries provide a generic way to access host-specific features such a
 
 The use of universal bytecode makes porting simple. However, the overhead of interpreting bytecode into machine instructions made interpreted programs almost always run more slowly than native executables. Just-in-time (JIT) compilers that compile byte-codes to machine code during runtime were introduced from an early stage. Java's Hotspot compiler is actually two compilers in one; and with GraalVM (included in e.g. Java 11, but removed as of Java 16) allowing tiered compilation. Java itself is platform-independent and is adapted to the particular platform it is to run on by a Java virtual machine (JVM) for it, which translates the Java bytecode into the platform's machine language.
 
-## Difference between JDK, JRE and JVM
+<!-- ## Difference between JDK, JRE and JVM
 | JDK | JRE | JVM|
 |---|---|---|
 | Java Development Kit (JDK) is a software development environment used for developing Java applications and applets. It includes the Java Runtime Environment (JRE), an interpreter/loader (Java), a compiler (javac), an archiver (jar), a documentation generator (Javadoc), and other tools needed in Java development. | JRE stands for “Java Runtime Environment” and may also be written as “Java RTE.” The Java Runtime Environment provides the minimum requirements for executing a Java application; it consists of the Java Virtual Machine (JVM), core classes, and supporting files. | JVM stands for JAVA Virtual Machine. A specification where the working of Java Virtual Machine is specified. But implementation provider is independent to choose the algorithm. Its implementation has been provided by Sun and other companies. |
@@ -160,3 +160,4 @@ class <class_name>{
     method;  
 } 
 ```
+ -->
