@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-This repository consists of programs created by me using Java.
+This repository consists of programs created using Java.
 </p>
 
 <!-- [![Sparkline](https://stars.medv.io/Yaduttam95/Java.svg)](https://stars.medv.io/Yaduttam95/Java) -->
