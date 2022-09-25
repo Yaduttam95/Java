@@ -26,7 +26,6 @@ This repository consists of programs created using Java.
 [![GitHub branches](https://badgen.net/github/branches/Yaduttam95/Java)](https://github.comYaduttam95/Java/)
 [![GitHub license](https://badgen.net/github/license/Yaduttam95/Java)](https://github.com/Yaduttam95/Java/blob/master/LICENSE)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Yaduttam95/ama)
-![Profile views](https://gpvc.arturio.dev/Yaduttam95)
 
 ### CONTRIBUTORS
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Yaduttam95/Java)
