@@ -9,17 +9,14 @@
 
 <p align="center">
  
-  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/codeql-analysis.yml">
+  <a href="https://github.com/Yaduttam95/Java/actions/workflows/codeql-analysis.yml">
     <img alt="codeql" src="https://img.shields.io/badge/codeql-PASSED-green?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021/actions/workflows/StarCheck.yml">
+  <a href="https://github.com/Yaduttam95/Java/actions/workflows/StarCheck.yml">
     <img alt="star" src="https://img.shields.io/badge/starvalidation-PASSED-yellow?style=for-the-badge&logo=github" />
   </a>
-  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021">
-    <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Rjndrkha/Hacktober-Fest-2021?color=blue&logo=GITHUB&style=for-the-badge">
-  </a>
-  <a href="https://github.com/Rjndrkha/Hacktober-Fest-2021">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rjndrkha/Hacktober-Fest-2021?color=blue&label=CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge">
+  <a href="https://github.com/Yaduttam95/Java">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Yaduttam95/Java?color=blue&label=CONTRIBUTORS&logo=github&logoColor=white&style=for-the-badge">
   </a>
   
 ### **This repository will automatically assign the `hacktoberfest` and `hacktoberfest-accepted` labels to all submitted pull requests**
