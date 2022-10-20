@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Finds all permutations of given array
- **/
+**/
 public class Combination {
 
     private static int length;

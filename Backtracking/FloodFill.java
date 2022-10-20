@@ -1,8 +1,8 @@
-package com.thealgorithms.backtracking;
+import java.util.*;
 
 /**
  * Java program for Flood fill algorithm.
- */
+**/
 public class FloodFill {
 
     /**
