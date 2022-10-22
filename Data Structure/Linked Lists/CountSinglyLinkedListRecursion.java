@@ -1,4 +1,4 @@
-package com.thealgorithms.datastructures.lists;
+
 
 public class CountSinglyLinkedListRecursion extends SinglyLinkedList {
 

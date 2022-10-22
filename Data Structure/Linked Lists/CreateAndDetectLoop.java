@@ -1,5 +1,3 @@
-package com.thealgorithms.datastructures.lists;
-
 import java.util.Scanner;
 
 public class CreateAndDetectLoop {

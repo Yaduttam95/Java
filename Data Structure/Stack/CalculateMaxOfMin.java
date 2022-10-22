@@ -1,9 +1,5 @@
-/** Author : Siddhant Swarup Mallick
- * Github : https://github.com/siddhant2002
- */
 
 /** Program description - Given an integer array. The task is to find the maximum of the minimum of the array */
-package com.thealgorithms.datastructures.stacks;
 
 import java.util.*;
 

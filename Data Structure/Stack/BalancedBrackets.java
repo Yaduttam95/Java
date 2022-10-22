@@ -1,4 +1,4 @@
-package com.thealgorithms.datastructures.stacks;
+
 
 import java.util.Stack;
 
