@@ -1,4 +1,4 @@
-# Measuring LIS Length
+# Measuring Longest Increasing Subsequence Length
 
 ***1. Brute Force***
 The simplest way is to compute all subsequences and check if they are increasing or not and then store the length of the longest increasing subsequences as our answer.
@@ -9,6 +9,8 @@ The simplest way is to compute all subsequences and check if they are increasing
 Generate all subsequences and check for longest increasing subsequence at each instance.
 
 **Observation:** Time Complexity is too high. We will surely get a TLE pursuing this approach.
+
+---
 
 ***2. Recursion***
 
@@ -34,6 +36,8 @@ class Solution {
 ```
 
 **Observation:** Time Complexity is too high even with recursion. We get a TLE with this approach in the given testcases. Also, we see there are repeating subproblems in the recursion (Dry run a testcase to see repetition). Hence, we must memoize the solution. This increases the space complexity but reduces the time complexity considerably [ O(2^n) to O(n^2)].
+
+---
 
 ***3. Memoization***
 
@@ -64,6 +68,8 @@ class Solution {
 
 **Observation:** Time Complexity boils down to O(n^2) which passes all testcases but takes 1688 ms time. May be reduceable further if we observe the problem carefully. Also, we can remove the recursion stack space by tabulation (though the time complexity would remain the space).
 
+---
+
 ***4. Tabulation***
 
 // TC = O(n^2)
@@ -91,6 +97,8 @@ class Solution {
 
 **Observation:** Time Complexity remains O(n^2) and all testcases pass. The time taken is 626 ms. Space complexity is reduced as we no longer require the recurrence stack space. Also, we can  reduce the 2D dp to two 1D dp arrays as we only require the previously filled row for calculating the current row.
 
+---
+
 ***5. Spatial optimization***
 // TC = O(n^2)
 // SC = O(n)
@@ -117,6 +125,8 @@ class Solution {
 ```
 **Observation:** Time Complexity remains O(n^2) and all testcases pass. The time taken is 245 ms. The space consumed is further reduced as we only carry two 1D dp array rows instead of the entire 2D array.
 
+---
+
 ***6. Another Approach***
 // TC = O(n^2)
 // SC = O(n)
@@ -139,6 +149,8 @@ class Solution {
 ```
 **Observation:** After watching some solution videos and reading the discuss forums, I realized that we can begin from the zeroth index and at every index, traerse the array till current index and get the previous index with the longest subsequence till now having value smaller than the current index value. Time Complexity remains O(n^2) and all testcases pass. The time taken is 63 ms.
 After observing approach 6 carefully, we can see that we do not actually need to traverse the entire previous array in order to check wether the current element can be paired with any previous elements. But, we can instead use a single traversal, allocating values to the binary searched locations (if location == al.size(), we simply insert the element into the al). Lastly, we can return the size of the arraylist.
+
+---
 
 ***7. Optimal Approach (Using Binary Search)***
 // TC = O(n logn)
