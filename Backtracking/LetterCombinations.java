@@ -1,5 +1,5 @@
 
-//Given a keypad combination (example 123) and an n digit number, list all words which are possible by pressing these numbers.
+//Given a keypad combination (example 123) of length n , list all words which are possible by pressing these numbers on a phone keypad.
 //Here we have taken 234 as a number input
 // Java program to implement the
 // above approach
