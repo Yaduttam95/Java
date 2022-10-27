@@ -1,26 +1,66 @@
-class Solution {
 
-    static String[] KEYPAD = new String[]{"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+//Given a keypad combination (example 123) and an n digit number, list all words which are possible by pressing these numbers.
+//Here we have taken 234 as a number input
+// Java program to implement the
+// above approach
+import java.io.*;
+import java.lang.*;
+import java.util.*;
+class NumberPadString {
 
-    public List<String> letterCombinations(String digits) {
-        StringBuilder sb = new StringBuilder();
-        List<String> res = new ArrayList<>();
-        dfs(sb, 0, digits, KEYPAD, res);
+	static Character[][] numberToCharMap;
 
-        return res;
-    }
+	private static List<String> printWords(int[] numbers,int len,int numIndex,String s)
+	{
+		if (len == numIndex) {
+			return new ArrayList<>(
+				Collections.singleton(s));
+		}
 
-    private void dfs(StringBuilder sb, int index, String digits, String[] keypad, List<String> res) {
-        if (index == digits.length()) {
-            res.add(sb.toString());
-            return;
-        }
+		List<String> stringList = new ArrayList<>();
 
-        String options = keypad[digits.charAt(index) - '0'];
-        for (char option : options.toCharArray()) {
-            sb.append(option);
-            dfs(sb, index + 1, digits, keypad, res);
-            sb.deleteCharAt(sb.length() - 1);
-        }
-    }
+		for (int i = 0;i < numberToCharMap[numbers[numIndex]].length;i++) {
+			String sCopy
+				= String.copyValueOf(s.toCharArray());
+			sCopy = sCopy.concat(
+				numberToCharMap[numbers[numIndex]][i]
+					.toString());
+			stringList.addAll(printWords(
+				numbers, len, numIndex + 1, sCopy));
+		}
+		return stringList;
+	}
+
+	private static void printWords(int[] numbers)
+	{
+		generateNumberToCharMap();
+		List<String> stringList
+			= printWords(numbers, numbers.length, 0, "");
+		stringList.stream().forEach(System.out::println);
+	}
+
+	private static void generateNumberToCharMap()
+	{
+		numberToCharMap = new Character[10][5];
+		numberToCharMap[0] = new Character[] { '\0' };
+		numberToCharMap[1] = new Character[] { '\0' };
+		numberToCharMap[2]= new Character[] { 'a', 'b', 'c' };
+		numberToCharMap[3]= new Character[] { 'd', 'e', 'f' };
+		numberToCharMap[4]= new Character[] { 'g', 'h', 'i' };
+		numberToCharMap[5]= new Character[] { 'j', 'k', 'l' };
+		numberToCharMap[6]= new Character[] { 'm', 'n', 'o' };
+		numberToCharMap[7]= new Character[] { 'p', 'q', 'r', 's' };
+		numberToCharMap[8]= new Character[] { 't', 'u', 'v' };
+		numberToCharMap[9]= new Character[] { 'w', 'x', 'y', 'z' };
+	}
+
+	// Driver code
+	public static void main(String[] args)
+	{
+		int number[] = { 2, 3, 4 };
+
+		// Function call
+		printWords(number);
+	}
 }
+
